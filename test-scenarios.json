@@ -1,0 +1,60 @@
+scenarios = {
+    "split_8s": [
+        Card('8', Suit.HEARTS),
+        Card('6', Suit.DIAMONDS),
+        Card('8', Suit.SPADES),
+        Card('T', Suit.CLUBS),
+        Card('3', Suit.CLUBS),
+        Card('3', Suit.DIAMONDS),
+        Card('T', Suit.HEARTS),
+        Card('T', Suit.SPADES),
+        Card('6', Suit.CLUBS),
+        Card('8', Suit.CLUBS),
+        Card('6', Suit.DIAMONDS),
+        Card('A', Suit.HEARTS),
+        Card('T', Suit.SPADES),
+        Card('7', Suit.SPADES),
+        Card('8', Suit.CLUBS),
+        Card('6', Suit.DIAMONDS),
+        Card('3', Suit.HEARTS),
+        Card('T', Suit.SPADES),
+        Card('4', Suit.SPADES)
+    ],
+    "double_after_split": [
+        Card('7', Suit.HEARTS),
+        Card('6', Suit.SPADES),
+        Card('7', Suit.DIAMONDS),
+        Card('T', Suit.CLUBS),
+        Card('4', Suit.HEARTS),
+        Card('J', Suit.CLUBS),
+        Card('K', Suit.SPADES),
+        Card('K', Suit.DIAMONDS),
+        Card('Q', Suit.HEARTS)
+    ],
+    "soft_17": [
+        Card('T', Suit.SPADES),
+        Card('A', Suit.SPADES),
+        Card('3', Suit.SPADES),
+        Card('6', Suit.CLUBS),
+        Card('7', Suit.DIAMONDS),
+        Card('6', Suit.HEARTS),
+        Card('6', Suit.HEARTS)
+    ],
+    "soft19v6": [
+        Card('8', Suit.HEARTS),
+        Card('6', Suit.SPADES),
+        Card('A', Suit.DIAMONDS),
+        Card('T', Suit.CLUBS),
+        Card('4', Suit.HEARTS),
+        Card('Q', Suit.HEARTS)
+    ],
+    "split_aces": [
+        Card('A', Suit.HEARTS),
+        Card('6', Suit.SPADES),
+        Card('A', Suit.DIAMONDS),
+        Card('T', Suit.CLUBS),
+        Card('4', Suit.HEARTS),
+        Card('J', Suit.CLUBS),
+        Card('Q', Suit.HEARTS)
+    ]
+}
